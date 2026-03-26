@@ -1,0 +1,50 @@
+@use '../../styles/variables.scss' as *;
+
+.promo {
+    background: url(../../resources/img/main.png) center center / cover no-repeat;
+    min-height: 640px;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &__title {
+        font-family: $font-title;
+            font-weight: 700;
+            font-size: 40px;
+            color: #fff;
+            margin-bottom: 20px;
+    }
+    &__subtitle {
+        font-family: $font-title;
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+            padding-top: 35px;
+            line-height: 1.6;
+    }
+    &__btn {
+        padding: 2px;
+        margin-top: 18px;
+        border: 1px solid #fff;
+        border-radius: 3px;
+        width: 120px;
+        height: 30px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: rgba(196, 196, 196, 0);
+        font-family: $font-title;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        &:active {
+            transform: translateY(0);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+}

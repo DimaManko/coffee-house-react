@@ -1,0 +1,38 @@
+@use '../../styles/variables.scss' as *;
+
+.beans-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; // Расстояние от линий до зерен
+    margin: 20px 0;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 1px;
+    }
+
+    &_black {
+
+        &::before,
+        &::after {
+            background-color: #000;
+        }
+    }
+
+    &_white {
+
+        &::before,
+        &::after {
+            background-color: #fff;
+        }
+    }
+}
