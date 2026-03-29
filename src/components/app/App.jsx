@@ -1,6 +1,7 @@
 import { Component } from "react"
 import Header from "../app-header/app-header";
 import Promo from "../promo/promo";
+import About from "../about/about";
 
 class App extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class App extends Component {
       <div>
         <Header/>
         <Promo/>
+        <About/>
       </div>
     )
   }
