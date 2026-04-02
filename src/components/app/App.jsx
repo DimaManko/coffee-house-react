@@ -3,6 +3,7 @@ import Header from "../app-header/app-header";
 import Promo from "../promo/promo";
 import About from "../about/about";
 import OurBest from "../our-best/our-best";
+import data from '../../data.js'
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends Component {
         <Header/>
         <Promo/>
         <About/>
-        <OurBest/>
+        <OurBest data={data}/>
       </div>
     )
   }
