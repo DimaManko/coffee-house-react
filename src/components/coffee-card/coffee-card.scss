@@ -1,7 +1,7 @@
 @use '../../styles/variables.scss' as *;
 
 .coffee-item {
-    padding: 21px;
+    padding: 37px 0 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,10 +17,16 @@
         margin-left: auto;
         font-weight: 700;
     }
-    img {
-        width: 150px;
-        display: block;
-        margin: 0 auto 14px;
+    &__img-wrapper {
+        height: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+                max-height: 100%; 
+                max-width: 100%;
+                object-fit: contain; 
+            }
     }
 
     &_best {
