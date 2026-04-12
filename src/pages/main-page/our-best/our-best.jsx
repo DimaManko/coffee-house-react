@@ -1,5 +1,5 @@
 import './our-best.scss';
-import CoffeeCard from '../coffee-card/Coffee-card';
+import CoffeeCard from '../../../components/coffee-card/Coffee-card';
 
 const OurBest = ({data}) => {
     return (

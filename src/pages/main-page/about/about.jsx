@@ -1,4 +1,4 @@
-import BeansDivider from "../beans-divider/beans-divider";
+import BeansDivider from '../../../components/beans-divider/beans-divider';
 import './about.scss'
 
 const About = () => {

@@ -1,8 +1,8 @@
 import { Component } from "react"
 import Header from "../app-header/app-header";
-import Promo from "../promo/promo";
-import About from "../about/about";
-import OurBest from "../our-best/our-best";
+import Promo from "../../pages/main-page/promo/promo.jsx";
+import About from "../../pages/main-page/about/about.jsx";
+import OurBest from "../../pages/main-page/our-best/our-best.jsx";
 import data from '../../data.js'
 
 class App extends Component {

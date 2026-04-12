@@ -1,0 +1,23 @@
+@use "../../../styles/variables.scss" as *;
+
+.about {
+  text-align: center;
+  padding-top: 80px;
+  min-height: 520px;
+  font-family: $font-title;
+  font-weight: 400;
+  &__subtitle {
+    font-size: 24px;
+    color: #000;
+  }
+  &__text {
+    max-width: 590px;
+    margin: 40px auto 0px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    &:last-child {
+      margin-top: 25px;
+    }
+  }
+}
