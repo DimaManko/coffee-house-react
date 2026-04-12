@@ -1,5 +1,6 @@
 import { Component } from "react"
 import Header from "../app-header/app-header";
+import Footer from "../app-footer/app-footer.jsx";
 import Promo from "../../pages/main-page/promo/promo.jsx";
 import About from "../../pages/main-page/about/about.jsx";
 import OurBest from "../../pages/main-page/our-best/our-best.jsx";
@@ -19,6 +20,7 @@ class App extends Component {
         <Promo/>
         <About/>
         <OurBest data={data}/>
+        <Footer/>
       </div>
     )
   }

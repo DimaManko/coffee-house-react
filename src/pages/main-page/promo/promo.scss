@@ -1,7 +1,8 @@
 @use "../../../styles/variables.scss" as *;
 
 .promo {
-  background: url(../../resources/img/main.png) center center / cover no-repeat;
+  background: url(../../../resources/img/main.png) center center / cover
+    no-repeat;
   min-height: 640px;
   padding-top: 180px;
   display: flex;
