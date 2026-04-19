@@ -4,7 +4,6 @@ import Footer from "../app-footer/app-footer.jsx";
 import Promo from "../../pages/main-page/promo/promo.jsx";
 import About from "../../pages/main-page/about/about.jsx";
 import OurBest from "../../pages/main-page/our-best/our-best.jsx";
-import data from '../../data.js'
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +19,7 @@ class App extends Component {
         <main className="main-content">
           <Promo/>
         <About/>
-        <OurBest data={data}/>
+        <OurBest/>
         </main>
         <Footer/>
       </div>
